@@ -1,0 +1,17 @@
+.checkbox-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox-group.right {
+  flex-direction: row-reverse;
+}
+
+.checkbox-group .content {
+  flex: 1;
+  display: flex;
+}
+
+.checkbox-group.right .content {
+  justify-content: flex-end;
+}

@@ -1,0 +1,23 @@
+form {
+  position: relative;
+}
+
+.loading-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(237, 237, 239, 0.55);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s;
+}
+
+.loading-panel.visible {
+  opacity: 1;
+  pointer-events: auto;
+}

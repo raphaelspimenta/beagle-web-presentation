@@ -1,0 +1,11 @@
+<div class="form-group" [ngStyle]="style">
+  <label>{{label}}</label>
+  <ng-select
+    [items]="options"
+    bindLabel="name"
+    bindValue="value"
+    [(ngModel)]="value"
+    [clearable]="false"
+    (change)="onChange($event)">
+  </ng-select>
+</div>

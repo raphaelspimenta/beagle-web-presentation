@@ -1,0 +1,7 @@
+<div
+  *ngFor="let page of pages"
+  class="page-counter-item"
+  [ngClass]="{'active' : page === activePage}"
+>
+  <span>{{ page }}</span>
+</div>

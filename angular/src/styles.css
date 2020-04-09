@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+  background-color: #EDEDEF;
+  font-family: 'Open Sans', sans-serif;
+  color: #313131;
+  font-size: 12px;
+  height: 100vh;
+}
+
+p {
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group > label {
+  display: block;
+  color: #4A4A4A;
+  margin-bottom: 10px;
+}
+
+.ng-select-container {
+  border: 2px solid #F2F2F3 !important;
+}
+
+.ng-select.ng-select-single .ng-select-container {
+  height: 28px;
+  min-width: 100%;
+  width: fit-content;
+}
+
+.ng-select .ng-select-container {
+  min-height: fit-content;
+}

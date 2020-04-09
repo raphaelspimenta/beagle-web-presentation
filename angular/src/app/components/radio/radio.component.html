@@ -1,0 +1,12 @@
+<div class="radio-container {{position}}">
+  <input
+    type="radio"
+    [id]="id"
+    [name]="radioGroupName"
+    [value]="value"
+    (change)="onChange()"
+  />
+  <label [for]="id">
+    <ng-content></ng-content>
+  </label>
+</div>

@@ -1,0 +1,7 @@
+<button
+  [type]="type === 'event' || type === 'link' ? 'button' : type"
+  (click)="handleClick()"
+  [disabled]="disabled"
+>
+  {{value}}
+</button>

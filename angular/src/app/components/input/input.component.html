@@ -1,0 +1,12 @@
+<div class="form-group">
+  <label>{{label}}:</label>
+  <input
+    [name]="name"
+    [disabled]="disabled"
+    [type]="type || 'text'"
+    [(ngModel)]="value"
+    (input)="onChange()"
+    [autocomplete]="autocomplete"
+    [placeholder]="placeholder || ''"
+  />
+</div>

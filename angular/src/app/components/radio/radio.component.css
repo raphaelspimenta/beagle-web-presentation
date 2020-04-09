@@ -1,0 +1,25 @@
+.radio-container {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
+}
+
+.radio-container.top, .radio-container.bottom {
+  margin: 0 15px;
+}
+
+.radio-container label {
+  margin: 0 0 0 8px;
+}
+
+.radio-container.right label {
+  margin: 0 8px 0 0;
+}
+
+.radio-container.top label {
+  margin: 8px 0 0 0;
+}
+
+.radio-container.bottom label {
+  margin: 0 0 8px 0;
+}
