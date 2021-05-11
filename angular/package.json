@@ -22,7 +22,7 @@
     "@angular/router": "~8.2.14",
     "@ng-select/ng-select": "^3.0.0",
     "@zup-it/beagle-angular": "^0.0.10",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
